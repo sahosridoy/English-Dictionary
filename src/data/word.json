@@ -1,0 +1,36 @@
+[
+    {
+        "en" : "Ant",
+        "bn" : "পিপীলিকা",
+        "defination" : "a small insect typically having a sting and living in a complex social colony with one or more breeding queens. It is wingless except for fertile adults, which form large mating swarms, and is proverbial for its industriousness.",
+        "category_id" : 1,
+        "word_category_id" : 1,
+        "synonyms" : "",
+        "antonym" : "",
+        "sentence" : [
+            {
+                "id" : 1,
+                "ex" : "Ant is a small animal"
+            }
+        ]
+    },
+    {
+        "en" : "Cow",
+        "bn" : "গাভী",
+        "defination" : "a small insect typically having a sting and living in a complex social colony with one or more breeding queens. It is wingless except for fertile adults, which form large mating swarms, and is proverbial for its industriousness.",
+        "category_id" : 1,
+        "word_category_id" : 3,
+        "synonyms" : "ox",
+        "antonym" : "ox",
+        "sentence" : [
+            {
+                "id" : 1,
+                "ex" : "Cow is a big animal"
+            },
+            {
+                "id" : 2,
+                "ex" : "Cow has 4 legs"
+            }
+        ]
+    }
+]
