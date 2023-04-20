@@ -9,19 +9,19 @@ function AZSingle() {
   const [words, setWords] = useState(Vocabulary);
   useEffect(() => {
 
-    setLetters(az.filter((letter) => letter.id === parseInt(id)));
-    setWords(Vocabulary.filter((word) => word.word_category_id === parseInt(id)));  
+    setLetters(az.filter((letter) => letter.id === id));
+    setWords(Vocabulary.filter((word) => word.word_category_id === id));  
   }, []);
-  console.log(id);
-  console.log(letters);
-  console.log(words);
+  // console.log(id);
+  // console.log(letters);
+  // console.log(words);
   return (
     <>
       <div className="row pt-5">
         <h4>{letters[0].title}</h4>
         <hr></hr>
         {words.map((word) => (
-          <li key={word.id}>{ word.en }</li>
+          <li key={word.en}>{ word.en }</li>
         ))}
       </div>
     </>
