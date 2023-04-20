@@ -2,10 +2,6 @@
 import { Link, NavLink } from "react-router-dom";
 
 
-const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About", href: "/about", current: false },
-];
 
 export default function Navbar() {
   return (

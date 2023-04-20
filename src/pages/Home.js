@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Vocabulary from '../data/word.json';
 import verbList from '../data/verb.json';
 import WordSearch from '../components/public/search/WordSearch';

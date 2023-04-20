@@ -11,7 +11,7 @@ function AZSingle() {
 
     setLetters(az.filter((letter) => letter.id === id));
     setWords(Vocabulary.filter((word) => word.word_category_id === id));  
-  }, []);
+  }, [id]);
   // console.log(id);
   // console.log(letters);
   // console.log(words);
